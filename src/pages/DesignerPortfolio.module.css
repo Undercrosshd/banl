@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+.pageInfo {
+  margin-left : 300px
+}
+
+.portfolioInfo {
+  text-align: center;
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.portfolioPrice {
+  text-align: center;
+}
+
+table {
+  width: 650px;
+  height: 350px;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  width: 25%;
+  height: 16.7%;
+}
+
+table th,
+table td {
+  border: 1px solid black;
+}
+
+table th:first-child,
+table td:first-child {
+	border-left: 0;
+}
+table th:last-child,
+table td:last-child {
+	border-right: 0;
+}
+
+.buttonProductPage {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

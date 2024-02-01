@@ -2,15 +2,36 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.MenuBar{
+  width: 100%;
+  height: 100%;
+  line-height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2%;
+  margin-left: 25%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.loginMenu{
+  display: flex;
+  text-align: center;
+  justify-content:flex-end;
+  margin-right: 1%;
+}
+
+.menu{
+  margin-right: 1%;
+  font-size: 120%;
+  font-family: 'Gowun Batang', sans-serif;
+  font-weight: 500;
+  margin-left: 1%;
+}
+
+.logo {
+  margin-right: 150px;
+  width: 50px;
+  height: 50px;
+  background-color: #6AD8A0;
 }
 
 .App-header {
